@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Testing Amplify Deployment via CDK via GitHub
+          Testing Amplify Deployment via CDK
         </a>
       </header>
     </div>
