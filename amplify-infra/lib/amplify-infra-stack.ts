@@ -25,7 +25,6 @@ export class AmplifyInfraStack extends cdk.Stack {
       }),
     });
     const masterBranch = amplifyApp.addBranch("master");
-
     /************* End for Code Commit Repo ***********/
 
     /************* Start for GitHub Repo ***********/
