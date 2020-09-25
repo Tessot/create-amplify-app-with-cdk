@@ -46,4 +46,4 @@ npm run build
 cdk deploy
 ```
 
-For more details around how to set this project up read the blog here https://aws.amazon.com/blogs/mobile/deploying-a-static-website-with-aws-amplify-and-cdk/
+For more details on this project, read the blog here https://aws.amazon.com/blogs/mobile/deploying-a-static-website-with-aws-amplify-and-cdk/
