@@ -6,6 +6,7 @@ export class AmplifyInfraStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
+    /************* Start for Code Commit Repo  ***********/
     // Part 1 [Optional] - Creation of the source control repository
     const amplifyReactSampleRepo = new codecommit.Repository(
       this,
@@ -25,6 +26,9 @@ export class AmplifyInfraStack extends cdk.Stack {
     });
     const masterBranch = amplifyApp.addBranch("master");
 
+    /************* End for Code Commit Repo ***********/
+
+    /************* Start for GitHub Repo ***********/
     /*
     // Part 2 - Creation of the Amplify Application via GitHub Repo
     const amplifyApp = new amplify.App(this, "sample-react-app ", {
@@ -38,5 +42,6 @@ export class AmplifyInfraStack extends cdk.Stack {
     });
     const masterBranch = amplifyApp.addBranch("master");
     */
+    /************* End for GitHub Repo ***********/
   }
 }
