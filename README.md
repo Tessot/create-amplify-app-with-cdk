@@ -2,6 +2,9 @@
 
 This is a sample source code for deploying Amplify Application with AWS CDK with source code in either CodeCommit or GitHub
 
+![Image of the steps to deploy Amplify App via CDK]
+(https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2020/09/16/Picture1_updated.png)
+
 ### Getting started
 
 To deploy this project, follow these steps.
